@@ -8,7 +8,7 @@ import retrofit2.http.Query
 import javax.inject.Singleton
 
 @Singleton
-interface BooksApi {
+interface   BooksApi {
     @GET("volumes")
     suspend fun getAllBooks(@Query("q") query: String) : Book
 

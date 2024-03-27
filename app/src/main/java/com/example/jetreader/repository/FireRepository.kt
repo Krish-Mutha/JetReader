@@ -2,7 +2,6 @@ package com.example.jetreader.repository
 
 import com.example.jetreader.data.DataOrException
 import com.example.jetreader.model.MBook
-import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.FirebaseFirestoreException
 import com.google.firebase.firestore.Query
 import kotlinx.coroutines.tasks.await
